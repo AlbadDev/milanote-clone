@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from './Components/Navbar'
+import Navbar from '../Components/Navbar'
 
 
 
@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="description" content="A perfect clone of Milanote web site build with Nextjs by AlbadDev" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"/> 
       </Head>
 

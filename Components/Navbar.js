@@ -1,6 +1,7 @@
-import style from '../../styles/Navbar.module.scss'
+import style from '../styles/Navbar.module.scss'
+import logo from '../public/logo.png'
 import Image from 'next/image'
-import logo from '../../public/logo.png'
+
 
 
 
