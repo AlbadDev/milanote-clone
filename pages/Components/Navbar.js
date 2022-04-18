@@ -1,6 +1,6 @@
 import style from '../../styles/Navbar.module.scss'
 import Image from 'next/image'
-
+import logo from '../../public/logo.png'
 
 
 
@@ -11,8 +11,8 @@ const Navbar = () => {
     return (
         <section className={style.container}>
             <header className={style.header}>
-                <div>
-                    {/* <Image src={}/> */}
+                <div className={style.logoContainer}>
+                    <Image src={logo} className={style.logoIcon}/>
                     <span className={style.logo}> Milanote</span>
                 </div>
                 <nav className={style.navContainer}>
