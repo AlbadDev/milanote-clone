@@ -2,20 +2,65 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #31303a;
     padding: 10px;
     .sectionComponent {
         display: flex;
         //justify-content: center;
         //align-items: center;
-        background-color: cornflowerblue;
+        background-color: #fff;
         .articleContainer {
             display: flex;
             width: 100%;
     
             .leftContainer {
+                padding: 0 0 0 15px;
                 width: 30%;
-                background-color: aquamarine;
+                max-width: 400px;
+                //background-color: aquamarine;
+                
+                .container {
+                    display: flex;
+                    flex-direction: column;
+
+                    h1 {
+                        padding-top: 40px;
+                        padding-bottom: 20px;
+                        color: #31303a;
+                        font-size: 42px;
+                        line-height: 1.18;
+                    }
+                    .IntroComponent {
+                        padding-bottom: 25px;
+                        font-size: 22px;
+                        line-height: 1.33;
+                        color: #6e9e71;
+                        
+
+
+                        .signUp {
+                            
+                            display: inline-block;
+                            align-items: center;
+                            background: #f4511c;
+                            border: 0;
+                            padding: 10px 34px 11px 34px;
+                            font-family: "Source Sans",Helvetica,Arial,sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #fff;
+                            text-decoration: none;
+                            outline: 0;
+                            cursor: pointer;
+                            border-radius: 3px;
+                            border: 0;
+                            transition: background .25s linear;
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            
+                        }
+                    
+                    }
+                }
             }
     
             .rightContainer {
