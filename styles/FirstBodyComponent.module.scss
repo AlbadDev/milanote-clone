@@ -1,0 +1,26 @@
+.firstComponentContainer {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #31303a;
+    padding: 10px;
+    .sectionComponent {
+        display: flex;
+        //justify-content: center;
+        //align-items: center;
+        background-color: cornflowerblue;
+        .articleContainer {
+            display: flex;
+            width: 100%;
+    
+            .leftContainer {
+                width: 30%;
+                background-color: aquamarine;
+            }
+    
+            .rightContainer {
+                width: 70%;
+            }
+        }
+    }
+}

@@ -2,9 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar'
-
-
-
+import BodyFirstComponent from '../Components/BodyFirstComponent'
 
 export default function Home() {
   return (
@@ -20,14 +18,7 @@ export default function Home() {
 
       <Navbar />
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="/">Milanote Clone Site!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started 
-        </p>
-
+        <BodyFirstComponent />
       </main>
 
       <footer className={styles.footer}>
