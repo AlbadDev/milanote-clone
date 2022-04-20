@@ -144,7 +144,15 @@
                 margin-top: -20px;
                 margin-left: 60px;
                 overflow: hidden;
-                
+                border-left: 1px solid rgba(128, 128, 128, 0.37);
+                border-bottom: 1px solid rgba(128, 128, 128, 0.37);
+
+                .firstComponentRightImage {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    max-width: 100%;
+                }
             }
         }
     }
