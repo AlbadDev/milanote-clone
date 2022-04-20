@@ -32,7 +32,7 @@ const BodyFirstComponent = () => {
                                                 The Evernote for Creatives               
                                             </article>
                                             <article className={style.userInfo}>
-                                               <div className={style.userInfonContainer}>
+                                                <div className={style.userInfonContainer}>
                                                     <div className={style.userImage}>
                                                         <Image src={userImage} width='40' height='40' alt='userImage' className={style.image}/>                                
                                                     </div>
@@ -42,7 +42,7 @@ const BodyFirstComponent = () => {
                                                             <div className={style.meta}>The Next Web</div>
                                                         </section>
                                                     </div>
-                                               </div>
+                                                </div>
                                                 <div className={style.company}><Image src={companyIcon} width='50' height='20' alt='userImage' className={style.companyIcon}/></div>               
                                             </article>
                                         </section>
@@ -51,7 +51,7 @@ const BodyFirstComponent = () => {
                             </div>
                         </article>
                         <article className={style.rightContainer}>
-                                <p>right</p>
+                                {/* <p>right</p> */}
                         </article>
                    </div>
                 </section>
