@@ -1,6 +1,13 @@
-/** @type {import('next').NextConfig} */
+// @type {import('next').NextConfig} 
 const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+export const images = {
+  domains: [
+    "www.wallpaperbetter.com",
+  ]
+}
+
+
+export default nextConfig
