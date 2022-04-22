@@ -51,7 +51,7 @@ const BodyFirstComponent = () => {
                             </div>
                         </article>
                         <article className={style.rightContainer}>
-                            <Image src='https://www.wallpaperbetter.com/wallpaper/466/110/467/beautiful-colorful-ocean-sky-2K-wallpaper-middle-size.jpg' width='100px' height='100px' alt='rightImage' className={style.firstComponentRightImage}/>
+                            <Image src={rightBackground} alt='rightImage' className={style.firstComponentRightImage}/>
                         </article>
                    </div>
                 </section>
