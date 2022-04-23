@@ -3,6 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar'
 import BodyFirstComponent from '../Components/BodyFirstComponent'
+import BodySecondComponent from '../Components/BodySecondComponent'
+
+
+
+
 
 export default function Home() {
   return (
@@ -18,6 +23,7 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <BodyFirstComponent />
+        <BodySecondComponent />
       </main>
 
       <footer className={styles.footer}>
