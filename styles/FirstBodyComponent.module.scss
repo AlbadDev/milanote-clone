@@ -9,10 +9,12 @@
         .articleContainer {
             display: flex;
             width: 100%;
-    
+            height: 550px;
+            margin-top: 20px;
+            margin-left: 30px;
             .leftContainer {
                 padding: 0 0 0 15px;
-                width: 30%;
+                width: 28%;
                 max-width: 400px;
                 // background-color: aquamarine;
                 .container {
@@ -141,17 +143,17 @@
     
             .rightContainer {
                 width: 70%;
+                height: 100%;
                 margin-top: -20px;
                 margin-left: 60px;
                 overflow: hidden;
-                border-left: 1px solid rgba(128, 128, 128, 0.37);
-                border-bottom: 1px solid rgba(128, 128, 128, 0.37);
-
                 .firstComponentRightImage {
-                    position: absolute;
-                    right: 0;
                     top: 0;
-                    max-width: 100%;
+                    width: 105%;
+                    height: 100%;
+                    background-image: url('https://images.prismic.io/milanote/fe89acd7-6881-4ff3-923f-08fff37dfce0_Agency-design-brief-board+example.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
                 }
             }
         }
