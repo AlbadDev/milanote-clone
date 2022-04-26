@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar'
 import BodyFirstComponent from '../Components/BodyFirstComponent'
 import BodySecondComponent from '../Components/BodySecondComponent'
-
+import OrganizeVisuallyComponent from '../Components/OrganizeVisuallyComponent'
 
 
 
@@ -28,6 +28,7 @@ export default function Home() {
           <main className={styles.main}>
             <BodyFirstComponent />
             <BodySecondComponent />
+            <OrganizeVisuallyComponent />
           </main>
 
           <footer className={styles.footer}>
