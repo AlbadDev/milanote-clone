@@ -1,6 +1,35 @@
 .sectionContainer {
+    display: flex;
+    margin-top: 40px;
     .articleContainer {
         display: flex;
         flex-direction: column;
+        //justify-content: center;
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 650px;
+            .title {
+                font-size: 35px;
+                margin-bottom: -10px;
+                font-family: "Tiempos",Times,serif;
+            }
+
+            h2 {
+                color: #31303a;
+                font-weight: 600;
+            }
+            .paragraph {
+                text-align: center;
+                font-size: 22px;
+                line-height: 1.36;
+                padding: 0 20px 1.5em 20px;
+                color: #818181;
+                font-family: "Source Sans",Helvetica,Arial,sans-serif;
+            }
+        }
     }
 }
