@@ -1,15 +1,16 @@
-import style from '../styles/OrganizeVisuallyComponent.module.scss'
+import style from '../styles/CollaborateTeamComponent.module.scss'
 
-const OrganizeVisuallyComponent = () => {
+
+const CollaborateTeamComponent = () => {
 
 
     return (
         <section className={style.sectionContainer}>
             <article className={style.articleContainer}>
                 <div className={style.header}>
-                    <h2 className={style.title}>Organize visually</h2>
+                    <h2 className={style.title}>Collaborate with your team</h2>
                     <p className={style.paragraph}>
-                        Milanote s flexible drag and drop interface lets you arrange things in whatever way makes sense for your project.
+                        Use Milanote as your online whiteboard to brainstorm ideas and work with your team, wherever they`re located.
                     </p>
                 </div>
                 <div className={style.bodyContainer}>
@@ -22,4 +23,4 @@ const OrganizeVisuallyComponent = () => {
     )
 }
 
-export default OrganizeVisuallyComponent
+export default CollaborateTeamComponent

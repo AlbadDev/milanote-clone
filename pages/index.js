@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar'
 import BodyFirstComponent from '../Components/BodyFirstComponent'
 import BodySecondComponent from '../Components/BodySecondComponent'
 import OrganizeVisuallyComponent from '../Components/OrganizeVisuallyComponent'
-
+import CollaborateTeamComponent from '../Components/CollaborateTeamComponent'
 
 
 
@@ -29,6 +29,7 @@ export default function Home() {
             <BodyFirstComponent />
             <BodySecondComponent />
             <OrganizeVisuallyComponent />
+            <CollaborateTeamComponent />
           </main>
 
           <footer className={styles.footer}>
