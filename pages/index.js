@@ -6,7 +6,7 @@ import BodyFirstComponent from '../Components/BodyFirstComponent'
 import BodySecondComponent from '../Components/BodySecondComponent'
 import OrganizeVisuallyComponent from '../Components/OrganizeVisuallyComponent'
 import CollaborateTeamComponent from '../Components/CollaborateTeamComponent'
-
+import SegmentCorouselSlice from '../Components/SegmentCorouselSlice'
 
 
 export default function Home() {
@@ -30,6 +30,7 @@ export default function Home() {
             <BodySecondComponent />
             <OrganizeVisuallyComponent />
             <CollaborateTeamComponent />
+            <SegmentCorouselSlice />
           </main>
 
           <footer className={styles.footer}>
