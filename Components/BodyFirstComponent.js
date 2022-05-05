@@ -52,7 +52,7 @@ const BodyFirstComponent = () => {
                         </article>
                         <article className={style.rightContainer}>
                             <div className={style.firstComponentRightImage}></div>
-                            {/* <Image src={rightBackground} alt='rightImage' className={style.firstComponentRightImage}/> */}
+                        
                         </article>
                    </div>
                 </section>
