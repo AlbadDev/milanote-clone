@@ -1,5 +1,5 @@
 import style from '../styles/SegmentCorouselSlice.module.scss'
-
+import SegmentCorouselContainer from './SegmentCorouselContainer'
 
 
 
@@ -13,7 +13,7 @@ const SegmentCorouselSlice = () => {
     return (
         <section className={style.sectionContainer}>
             <div className={style.navContainer}>
-            <span className={style.usage}>Milanote is used by:</span>
+                <span className={style.usage}>Milanote is used by:</span>
                 <ul>
                     <li>Designers</li>
                     <li>Creative directors</li>
@@ -23,6 +23,7 @@ const SegmentCorouselSlice = () => {
                     <li>Startups</li>
                 </ul>
             </div>
+            <SegmentCorouselContainer />
         </section>
     )
 }
