@@ -1,0 +1,15 @@
+
+
+.sectionContainer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .articleContainer {
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(231, 239, 245);
+        height: 750px;
+    }
+}
