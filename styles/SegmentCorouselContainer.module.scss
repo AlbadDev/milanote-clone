@@ -2,14 +2,53 @@
 
 .sectionContainer {
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
     box-sizing: border-box;
+    margin: -20px 60px;
+    justify-content: center;
+    align-items: center;
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 688px;
+        height: 120px;
+        box-sizing: border-box;
+        h3 {
+            letter-spacing: 0.5px;
+            color: #fff;
+            padding: 5px;
+            font-weight: 700;
+            text-align: center;
+            font-family: "Tiempos",Times,serif;
+        }
 
+        .title {
+            font-size: 40px;
+        }
+
+    }
+
+    .buttonContainer {
+        //background-color: aquamarine;
+        padding: 20px;
+
+        .findMe {
+            padding: 8px 40px 10px 40px;
+            text-decoration: none;
+            border-radius: 3px;
+            color: #31303a;
+            font-weight: 600;
+            background: #f8f8f8;
+            border: none;
+            cursor: pointer;
+        }
+    }
     .articleContainer {
         display: flex;
         flex-direction: column;
         background-color:rgb(231, 239, 245);
-        height: 750px;
+        height: 550px;
+        width: 80%;
     }
 }
