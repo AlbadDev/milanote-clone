@@ -32,13 +32,15 @@
     .buttonContainer {
         //background-color: aquamarine;
         padding: 20px;
+        margin-bottom: 15px;
 
         .findMe {
-            padding: 8px 40px 10px 40px;
+            padding: 12px 45px;
             text-decoration: none;
             border-radius: 3px;
             color: #31303a;
-            font-weight: 600;
+            font-size: 13px;
+            font-weight: 550;
             background: #f8f8f8;
             border: none;
             cursor: pointer;
