@@ -145,20 +145,12 @@
             }
         }
         
-        // @media(max-width: 600px) {
-        //     .card {
-        //         font-size: 10px;
-                
-        //     }
-        // }
 
     }
 }
 
 @media(max-width: 1200px) {
     .card {
-        max-width: 250px;
-        //border: 5px solid red;
-        
+        max-width: 250px; 
     }
 }
