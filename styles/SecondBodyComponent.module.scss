@@ -33,7 +33,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin: 65px;
+            //margin: 65px;
             margin-top: -30px;
             
             .grid {
@@ -55,7 +55,7 @@
                 border-radius: 2px;
                 transition: color 0.15s ease, border-color 0.15s ease;
                 width: 270px;
-                max-width: 767px;
+                // max-width: 767px;
                 //background-color: #a7a7dd;
 
                .cardChildBody {
@@ -144,6 +144,21 @@
                 flex-basis: 100%;
             }
         }
+        
+        // @media(max-width: 600px) {
+        //     .card {
+        //         font-size: 10px;
+                
+        //     }
+        // }
 
+    }
+}
+
+@media(max-width: 1200px) {
+    .card {
+        max-width: 250px;
+        //border: 5px solid red;
+        
     }
 }
