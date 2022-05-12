@@ -45,4 +45,17 @@
 
 
     }
+
+    @media(min-width: 760px) {
+        .navContainer {
+            font-size: 13px;
+            //padding: 0px 150px;
+        }
+    }
+    @media(max-width: 600px) {
+        .navContainer {
+            font-size: 10px;
+            //padding: 0px 150px;
+        }
+    }
 }
