@@ -32,7 +32,7 @@ export const corouselData = [
 	},
 	{
 		id: '5',
-		title: 'Startups use Milanote to figure out what's next',
+		title: "Startups use Milanote to figure out what's next",
 		linkTo: 'https://milanote.com/inspiration/startups',
 		imgContainer: 'https://images.prismic.io/milanote/171ca694-65fd-4d42-a8dd-eaf6b7e97e87_Carousel-startups+2021+-+November.png'
 	}
