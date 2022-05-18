@@ -1,5 +1,5 @@
 import style from '../styles/SegmentCorouselContainer.module.scss'
-
+import Image from 'next/image'
 
 
 
@@ -17,6 +17,7 @@ const SegmentCorouselContainer = () => {
             </div>
             <article className={style.articleContainer}>
                 Hello Im A Container
+                <Image src='https://images.prismic.io/milanote/171ca694-65fd-4d42-a8dd-eaf6b7e97e87_Carousel-startups+2021+-+November.png' width='150' height='750' layout='responsive'  alt='albad'/>
             </article>
         </section>
     )
