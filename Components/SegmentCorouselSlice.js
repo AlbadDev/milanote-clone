@@ -32,3 +32,4 @@ const SegmentCorouselSlice = () => {
 
 
 export default SegmentCorouselSlice
+
