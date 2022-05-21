@@ -1,12 +1,11 @@
 import style from '../styles/SegmentCorouselSlice.module.scss'
-import SegmentCorouselContainer from './SegmentCorouselContainer'
 import Link from 'next/link'
+import SegmentCorouselBody from './SegmentCorouselBody'
 
 
 
 
-
-const SegmentCorouselSlice = () => {
+const SegmentCorouselSlice = ({resultData}) => {
 
 
 
@@ -15,7 +14,7 @@ const SegmentCorouselSlice = () => {
             <div className={style.navContainer}>
                 <span className={style.usage}>Milanote is used by:</span>
                 <ul>
-                    <li><Link href='http://localhost:3000/api/corouselData/3'>Designers</Link></li>
+                    <li>Designers</li>
                     <li>Creative directors</li>
                     <li>Marketers</li>
                     <li>Writers</li>
@@ -23,7 +22,8 @@ const SegmentCorouselSlice = () => {
                     <li>Startups</li>
                 </ul>
             </div>
-            <SegmentCorouselContainer />
+            
+            <SegmentCorouselBody  resultData={resultData}/>
         </section>
     )
 }
