@@ -3,12 +3,16 @@
 
 
 
-const CorouselData = () => {
+const CorouselData = ({responseData}) => {
 
 
     return (
         <>
-            <p>Albaddev</p>
+            {
+                responseData.map(data => (
+                    <h2>{data.title}</h2>
+                ))
+            }
         </>
     )
 }

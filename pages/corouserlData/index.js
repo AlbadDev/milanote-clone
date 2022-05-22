@@ -3,20 +3,22 @@ import CorouselData from "../../Components/CorouselData"
 
 
 
-const DataFile  = ({ responseData }) => {
+const corouselData  = ({ responseData }) => {
 
     return (
-        <>
-            <CorouselData responseData = {responseData}/>
-        </>
+        
+            <>
+                <CorouselData responseData = {responseData}/>
+            </>
+        
     )
 }
 
-export default DataFile
+export default corouselData
 
 
 export const getStaticProps = async () => {
-    const requestData = await fetch('https://jsonplaceholder.typicode.com/users')
+    const requestData = await fetch('http://localhost:3000/api/corouselData')
     const responseData = await requestData.json()
 
     return {
