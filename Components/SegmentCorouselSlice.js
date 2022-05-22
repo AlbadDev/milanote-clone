@@ -1,12 +1,11 @@
 import style from '../styles/SegmentCorouselSlice.module.scss'
-import SegmentCorouselContainer from './SegmentCorouselContainer'
+import Link from 'next/link'
+import SegmentCorouselBody from './SegmentCorouselBody'
 
 
 
 
-
-
-const SegmentCorouselSlice = () => {
+const SegmentCorouselSlice = ({resultData}) => {
 
 
 
@@ -23,7 +22,8 @@ const SegmentCorouselSlice = () => {
                     <li>Startups</li>
                 </ul>
             </div>
-            <SegmentCorouselContainer />
+            
+            <SegmentCorouselBody  resultData={resultData}/>
         </section>
     )
 }
