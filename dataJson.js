@@ -40,3 +40,48 @@ export const corouselData = [
 
 
 ]
+
+export const testimonialData = [
+	{
+		quote: 'Milanote has become our digital way to look at inspiration, see process and critique work.',
+		userAvatar: 'https://images.prismic.io/milanote/b8285844d948a1a6f884a4e1d80b2a62733b0117_jeremy.png',
+		userName: 'Jeremy Perez-Cruz',
+		userTitle: 'Brand Design Manager at Uber',
+		companyLogo: 'https://images.prismic.io/milanote%2Feb33c6d2-319d-4d0a-b384-0819348172f6_logo-uber.svg'
+	},
+	{
+		quote: 'Milanote is an amazing place to organize my ideas and make sense of them as they grow.',
+		userAvatar: 'images.prismic.io/milanote/54bf32878b1c2cf72f0992a8a887c1531b30cb64_brendan.jpg',
+		userName: 'Brendan Kearns',
+		userTitle: 'Product Designer at InVision',
+		companyLogo: 'images.prismic.io/milanote%2Fedf1b8dd-6f7a-4f60-b980-3736dbe73425_invision-logo-pink.svg'
+	},
+	{
+		quote: 'Milanote is a visual extension of my brain.',
+		userAvatar: 'images.prismic.io/milanote/19f6e0c327656e1c8c07ad647c4a6e8bb3cd4653_thomas.png',
+		userName: 'Thomas De Monaco',
+		userTitle: 'Photographer for Chanel',
+		companyLogo: 'images.prismic.io/milanote%2F4c47b76d-2260-4a73-a0dd-eb7fba1bf8ca_logo-chanel.svg'
+	},
+	{
+		quote: 'An exquisite app for collecting, organizing & generating ideas.',
+		userAvatar: 'images.prismic.io/milanote/0e9f0b6efe10e45f0a9a1a1adcfb28e80b91f80a_philip.png',
+		userName: 'Philip Fierlinger',
+		userTitle: 'Co-founder & Head of Design at Xero',
+		companyLogo: 'images.prismic.io/milanote%2F47cf4af0-e93e-40d8-9a28-6a78b75881a0_logo-xero.svg'
+	},
+	{
+		quote: 'A beautiful tool for planning creative projects.',
+		userAvatar: 'images.prismic.io/milanote/e11fa7e48bc2b0fa84d40fe02a59ed03bec66d24_tina-profile.png',
+		userName: 'Tina Roth Eisenberg',
+		userTitle: 'Founder/Designer at Swiss Miss',
+		companyLogo: 'images.prismic.io/milanote%2F31d02be9-e1a2-44da-8a9e-d599d9523f8e_swiss-miss-logo-small.svg'
+	},
+	{
+		quote: 'Milanote is just lovely. A needed compliment to recent minimal text note taking excellence.',
+		userAvatar: 'images.prismic.io/milanote/ebddaf33699d8f615e9db349cc3080c16ceb0447_josh.png',
+		userName: 'Josh Musick',
+		userTitle: 'Principal Design Director at Frog',
+		companyLogo: 'images.prismic.io/milanote%2Ffe262991-bcd2-41ae-b736-6dc72b4db4bf_logo-frog.svg'
+	}
+]

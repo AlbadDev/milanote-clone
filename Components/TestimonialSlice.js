@@ -1,4 +1,4 @@
-import style from '@/styles/TestimonialSlice.module.scss'
+import style from '../styles/TestimonialSlice.module.scss'
 
 
 const TestimonialSlice = () => {
