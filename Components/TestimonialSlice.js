@@ -1,4 +1,4 @@
-
+import style from '@/styles/TestimonialSlice.module.scss'
 
 
 const TestimonialSlice = () => {
@@ -6,7 +6,7 @@ const TestimonialSlice = () => {
 
 
     return (
-        <section>
+        <section className={style.container}>
             hello Albad Am Your Testimonial Component Ready For You !
         </section>
     )
