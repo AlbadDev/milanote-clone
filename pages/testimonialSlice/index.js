@@ -1,6 +1,5 @@
 import TestimonialSlice from "../../Components/TestimonialSlice"
-
-
+import Home from '../index'
 
 
 
@@ -8,17 +7,16 @@ import TestimonialSlice from "../../Components/TestimonialSlice"
 const testimonialSlice  = ({ dataResponse }) => {
 
     return (
-        
-            <>
-                {
-                    dataResponse.map( data => <TestimonialSlice data = {data}/> )
-                }
-            </>
-        
+        <section>
+            <Home dataResponse = {dataResponse} />
+        </section>
     )
 }
 
 export default testimonialSlice
+
+
+
 
 
 export const getServerSideProps = async () => {
