@@ -1,16 +1,18 @@
+import TestimonialSlice from "../../Components/TestimonialSlice"
 
 
 
 
 
 
-
-const testimonialSlice  = ({ responseData }) => {
+const testimonialSlice  = ({ dataResponse }) => {
 
     return (
         
             <>
-                <CorouselData responseData = {responseData}/>
+                {
+                    dataResponse.map( data => <TestimonialSlice data = {data}/> )
+                }
             </>
         
     )
@@ -19,11 +21,14 @@ const testimonialSlice  = ({ responseData }) => {
 export default testimonialSlice
 
 
-export const getStaticProps = async () => {
-    const requestData = await fetch('http://localhost:3000/api/corouselData')
-    const responseData = await requestData.json()
+export const getServerSideProps = async () => {
+   const dataRequest = await fetch('http://localhost:3000/api/testimonialData')
+   const dataResponse = await dataRequest.json()
 
-    return {
-        props: {responseData}
-    }
+
+   return {
+       props: {
+           dataResponse
+       }
+   }
 }

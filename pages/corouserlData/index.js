@@ -17,7 +17,7 @@ const corouselData  = ({ responseData }) => {
 export default corouselData
 
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const requestData = await fetch('http://localhost:3000/api/corouselData')
     const responseData = await requestData.json()
 

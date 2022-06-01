@@ -1,14 +1,16 @@
 import style from '../styles/TestimonialSlice.module.scss'
 
 
-const TestimonialSlice = () => {
+const TestimonialSlice = ({data}) => {
 
 
 
     return (
-        <section className={style.container}>
-            hello Albad Am Your Testimonial Component Ready For You !
-        </section>
+        <>
+            
+                <h2>{data.userName}</h2>
+            
+        </>
     )
 }
 
