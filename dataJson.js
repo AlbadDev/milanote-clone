@@ -72,7 +72,7 @@ export const testimonialData = [
 		userAvatar: 'https://images.prismic.io/milanote/0e9f0b6efe10e45f0a9a1a1adcfb28e80b91f80a_philip.png',
 		userName: 'Philip Fierlinger',
 		userTitle: 'Co-founder & Head of Design at Xero',
-		companyLogo: 'images.prismic.io/milanote%2F47cf4af0-e93e-40d8-9a28-6a78b75881a0_logo-xero.svg'
+		companyLogo: 'https://images.prismic.io/milanote%2F47cf4af0-e93e-40d8-9a28-6a78b75881a0_logo-xero.svg'
 	},
 	{
 		id: '4',
