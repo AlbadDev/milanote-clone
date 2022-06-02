@@ -23,7 +23,7 @@ const TestimonialSlice = ({testimonialResult}) => {
                                 <div className={style.userTitle}><p>{data.userTitle}</p></div>
                             </article>
                             <article className={style.companyLogo}>
-                                <Image src={data.companyLogo} width='50' height='30'/>
+                                <Image src={data.companyLogo} width='80' height='30'/>
                             </article>
                         </div>
                     </section>

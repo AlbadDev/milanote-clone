@@ -27,13 +27,13 @@ const SegmentCorouselBody = ({resultData}) => {
                 </div>
                 <article className={style.articleContainer}>
                     
-                    {
+                    {/* {
                         resultData.map(data => (
                             <>
                                 <h3>{data.title}</h3>
                             </>
                         ))
-                    }
+                    } */}
                    
                     
                     {/* {
@@ -47,7 +47,7 @@ const SegmentCorouselBody = ({resultData}) => {
                             // </>
                     })
                     } */}
-                    {/* <Image src='https://images.prismic.io/milanote/171ca694-65fd-4d42-a8dd-eaf6b7e97e87_Carousel-startups+2021+-+November.png' width='150' height='750' layout='responsive'  alt='albad'/> */}
+                    <Image src='https://images.prismic.io/milanote/171ca694-65fd-4d42-a8dd-eaf6b7e97e87_Carousel-startups+2021+-+November.png' width='150' height='750' layout='responsive'  alt='albad'/>
                 </article>
             </section>
           

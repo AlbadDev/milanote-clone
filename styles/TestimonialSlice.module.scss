@@ -40,7 +40,8 @@
             margin: 15px;
             .quote {
                 min-height: 64px;
-                font-size: 18px;
+                font-size: 20px;
+                font-weight: 500;
                 color: #31303a;
                 font-family: "Tiempos",Times,serif;
                 line-height: 1.5;
@@ -68,9 +69,9 @@
                     }
                 }
                 .userInfo {
-                    // display: flex;
-                    // flex-direction: column;
-                    // justify-content: space-around;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
                     .userName {
                         display: flex;
                         align-items: center;
