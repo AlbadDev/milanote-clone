@@ -7,6 +7,16 @@ import BodySecondComponent from '../Components/BodySecondComponent'
 import OrganizeVisuallyComponent from '../Components/OrganizeVisuallyComponent'
 import SegmentCorouselSlice from '../Components/SegmentCorouselSlice'
 import TestimonialSlice from '../Components/TestimonialSlice'
+import CompanySectionSlice from '../Components/CompanySectionSlice'
+
+
+
+
+
+
+
+
+
 
 
 export default function Home({resultData , testimonialResult}) {
@@ -30,6 +40,7 @@ export default function Home({resultData , testimonialResult}) {
             <OrganizeVisuallyComponent />
             <SegmentCorouselSlice resultData = {resultData}/>
             <TestimonialSlice testimonialResult = {testimonialResult}/>
+            <CompanySectionSlice />
           </main>
 
           <footer className={styles.footer}>

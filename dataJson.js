@@ -91,3 +91,47 @@ export const testimonialData = [
 		companyLogo: 'https://images.prismic.io/milanote%2Ffe262991-bcd2-41ae-b736-6dc72b4db4bf_logo-frog.svg'
 	}
 ]
+
+
+export const companyLogos = [
+	{
+		id:'0',
+		srcLink: ''
+	},
+	{
+		id:'1',
+		srcLink: ''
+	},
+	{
+		id:'2',
+		srcLink: ''
+	},
+	{
+		id:'3',
+		srcLink: ''
+	},
+	{
+		id:'4',
+		srcLink: ''
+	},
+	{
+		id:'5',
+		srcLink: ''
+	},
+	{
+		id:'6',
+		srcLink: ''
+	},
+	{
+		id:'7',
+		srcLink: ''
+	},
+	{
+		id:'8',
+		srcLink: ''
+	},
+	{
+		id:'9',
+		srcLink: ''
+	},
+]
