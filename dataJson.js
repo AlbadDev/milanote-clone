@@ -96,42 +96,42 @@ export const testimonialData = [
 export const companyLogos = [
 	{
 		id:'0',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote/a26ee424-9b4a-45be-8d7d-5ec8812979ff_logo-facebook.svg'
 	},
 	{
 		id:'1',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote%2F4f5b0603-1508-47c1-b246-475e58d7df44_netflix.svg'
 	},
 	{
 		id:'2',
-		srcLink: ''
+		srcLink: 'https://prismic-io.s3.amazonaws.com/milanote/1353fcb0-5aff-4d90-8b93-05caa3a25c28_logo-amazon.svg'
 	},
 	{
 		id:'3',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote%2F45321e86-91a2-42e6-b2b1-1ad25552a364_google.svg'
 	},
 	{
 		id:'4',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote%2Fd9b58b13-7db5-405f-8739-4c67bee4b7c8_adobe.svg'
 	},
 	{
 		id:'5',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote/c66ad309-4a81-4f38-9063-b9ec4f4d6eb1_logo-uber%25403x.svg'
 	},
 	{
 		id:'6',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote/f9db0332-c442-43a2-93e9-766b171b89ad_logo-ideo%25403x.svg'
 	},
 	{
 		id:'7',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote%252Fca559aa9-d89b-45cb-8fc7-be7660f546af_nike.svg'
 	},
 	{
 		id:'8',
-		srcLink: ''
+		srcLink: 'https://images.prismic.io/milanote%252F7d26522c-aa93-4cec-b7c3-6e8fec3b9f2f_dropbox.svg'
 	},
 	{
 		id:'9',
-		srcLink: ''
-	},
+		srcLink: 'https://images.prismic.io/milanote%252F5ca55859-e0f1-40c1-b55c-25d6a7281aee_ustwo.svg'
+	}
 ]
