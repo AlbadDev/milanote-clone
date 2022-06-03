@@ -12,13 +12,15 @@ const CompanySectionSlice = ({responseCompanyData}) => {
         <section className={style.sectionContainer}>
             <article className={style.container}>
                 <p>Creative professionals from these companies use Milanote</p>
-                <ul>
-                    <li >
+                
+                    <ul >
                         {responseCompanyData.map(company => (
-                           <Image src={company.srcLink} width='50' height='50' id={company.id}/>
+                        
+                           <li className= {style.listCompany} id={company.id+1}><Image src={company.srcLink} width='100' height='55' id={company.id+2} /></li>
+                        
                         ))}
-                    </li>
-                </ul>
+                    
+                    </ul>
             </article>
         </section>
     )
