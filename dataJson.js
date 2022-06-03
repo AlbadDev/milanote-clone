@@ -116,22 +116,22 @@ export const companyLogos = [
 	},
 	{
 		id:'5',
-		srcLink: 'https://images.prismic.io/milanote/c66ad309-4a81-4f38-9063-b9ec4f4d6eb1_logo-uber%25403x.svg'
+		srcLink: 'https://images.prismic.io/milanote/c66ad309-4a81-4f38-9063-b9ec4f4d6eb1_logo-uber%403x.svg'
 	},
 	{
 		id:'6',
-		srcLink: 'https://images.prismic.io/milanote/f9db0332-c442-43a2-93e9-766b171b89ad_logo-ideo%25403x.svg'
+		srcLink: 'https://images.prismic.io/milanote/f9db0332-c442-43a2-93e9-766b171b89ad_logo-ideo%403x.svg'
 	},
 	{
 		id:'7',
-		srcLink: 'https://images.prismic.io/milanote%252Fca559aa9-d89b-45cb-8fc7-be7660f546af_nike.svg'
+		srcLink: 'https://images.prismic.io/milanote%2Fca559aa9-d89b-45cb-8fc7-be7660f546af_nike.svg'
 	},
 	{
 		id:'8',
-		srcLink: 'https://images.prismic.io/milanote%252F7d26522c-aa93-4cec-b7c3-6e8fec3b9f2f_dropbox.svg'
+		srcLink: 'https://images.prismic.io/milanote%2F7d26522c-aa93-4cec-b7c3-6e8fec3b9f2f_dropbox.svg'
 	},
 	{
 		id:'9',
-		srcLink: 'https://images.prismic.io/milanote%252F5ca55859-e0f1-40c1-b55c-25d6a7281aee_ustwo.svg'
+		srcLink: 'https://images.prismic.io/milanote%2F5ca55859-e0f1-40c1-b55c-25d6a7281aee_ustwo.svg'
 	}
 ]

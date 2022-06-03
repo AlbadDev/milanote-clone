@@ -19,7 +19,7 @@ import CompanySectionSlice from '../Components/CompanySectionSlice'
 
 
 
-export default function Home({resultData , testimonialResult}) {
+export default function Home({resultData , testimonialResult, responseCompanyData}) {
     return (
         <div className={styles.container}>
             <Head>
@@ -40,7 +40,7 @@ export default function Home({resultData , testimonialResult}) {
             <OrganizeVisuallyComponent />
             <SegmentCorouselSlice resultData = {resultData}/>
             <TestimonialSlice testimonialResult = {testimonialResult}/>
-            <CompanySectionSlice />
+            <CompanySectionSlice  responseCompanyData = {responseCompanyData}/>
           </main>
 
           <footer className={styles.footer}>
@@ -66,11 +66,14 @@ export const getStaticProps = async () => {
   const resultData = await requestData.json()
   const testimonialRequest = await fetch('http://localhost:3000/api/testimonialData')
   const testimonialResult = await testimonialRequest.json()
+  const requestCompanyData = await fetch('http://localhost:3000/api/companyData')
+  const responseCompanyData = await requestCompanyData.json()
 
   return {
     props: {
       resultData,
-      testimonialResult
+      testimonialResult,
+      responseCompanyData
     }
   }
 }
