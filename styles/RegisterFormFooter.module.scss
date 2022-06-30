@@ -1,0 +1,38 @@
+.sectionContainer {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    .container {
+        width: 100%;
+        //max-width: 520px;
+        padding: 64px 0;
+        text-align: center;
+        margin: 0 auto;
+        .background {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            .backgroundImg {
+                background-image: url('https://images.prismic.io/milanote/63d2e479-ad44-4cee-ae46-c25e4ed07091_register-footer-bg%402x.jpg');
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                margin-left: -350px;
+                overflow: hidden;
+                -webkit-box-flex: 1;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+                overflow: hidden;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+            }
+        }
+    }
+}

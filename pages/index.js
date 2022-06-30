@@ -8,6 +8,7 @@ import OrganizeVisuallyComponent from '../Components/OrganizeVisuallyComponent'
 import SegmentCorouselSlice from '../Components/SegmentCorouselSlice'
 import TestimonialSlice from '../Components/TestimonialSlice'
 import CompanySectionSlice from '../Components/CompanySectionSlice'
+import RegisterFormFooter from '../Components/RegisterFormFooter'
 
 
 
@@ -41,6 +42,7 @@ export default function Home({resultData , testimonialResult, responseCompanyDat
             <SegmentCorouselSlice resultData = {resultData}/>
             <TestimonialSlice testimonialResult = {testimonialResult}/>
             <CompanySectionSlice  responseCompanyData = {responseCompanyData}/>
+            <RegisterFormFooter />
           </main>
 
           <footer className={styles.footer}>
