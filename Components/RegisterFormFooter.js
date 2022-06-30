@@ -21,5 +21,5 @@ const RegisterFormFooter = () => {
     )
 }
 
-
+        
 export default RegisterFormFooter

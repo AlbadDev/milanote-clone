@@ -16,7 +16,7 @@ const CompanySectionSlice = ({responseCompanyData}) => {
                     <ul >
                         {responseCompanyData.map(company => (
                         
-                           <li className= {style.listCompany} id={company.id+1}><Image src={company.srcLink} width='100' height='55' id={company.id+2} /></li>
+                           <li className= {style.listCompany} id={company.id+1}><Image src={company.srcLink} width='130' height='80' id={company.id+2} /></li>
                         
                         ))}
                     
