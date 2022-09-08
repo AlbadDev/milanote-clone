@@ -1,0 +1,43 @@
+
+
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 92px;
+    padding-bottom: 0;
+    margin: 0 auto;
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            text-align: center;
+            font-size: 20px;
+            font-family:  serif;
+            margin-bottom: 75px;
+            color: #6e6e71;
+        }
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            
+
+            li {
+                display: flex;
+                justify-content: center;
+                //flex: 2;
+                //flex-basis: 166px;
+                width: 180px;
+                margin: 25px;
+                color: #6e6e71;
+                cursor: pointer;
+                //border: 1px solid gray;
+            }
+        }
+    }
+}

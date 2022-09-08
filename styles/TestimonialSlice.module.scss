@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    .testimonialWrap {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .testimonialContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: calc(50% - 20px);
+        margin: 10px;
+        width: 100%;
+        .testimonial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: auto;
+            padding: 27px 30px 35px 30px;
+            border-radius: 6px;
+            background: #fff;
+            text-align: center;
+            color: #6f6f72;
+            box-shadow: 0 10px 20px 0 rgb(0 0 0 / 3%);
+            width: calc(33.33% - 30px);
+            margin: 15px;
+            .quote {
+                min-height: 64px;
+                font-size: 20px;
+                font-weight: 500;
+                color: #31303a;
+                font-family: "Tiempos",Times,serif;
+                line-height: 1.5;
+                margin-bottom: 10px;
+            }
+            .quote::before {
+                display: inline;
+                content: open-quote;
+            }
+            .quote::after {
+                display: inline;
+                content: close-quote;
+            }
+            
+            .user {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                .userAvatar {
+
+                    .avatar {
+                        border-radius: 50%;
+                    }
+                }
+                .userInfo {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .userName {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 20px;
+                    }
+                    .userTitle {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 20px;
+                        font-size: 14px;
+                        padding: -5px 0px;
+                    }
+                }
+                .companyLogo {
+                    margin-top: 20px;
+                }
+            }
+
+
+
+
+
+
+        }
+        
+    }
+
+
+    @media (max-width: 1025px) {
+        .testimonial  {
+            width: calc(50% - 20px);
+            margin: 10px;
+        }
+    }
+}

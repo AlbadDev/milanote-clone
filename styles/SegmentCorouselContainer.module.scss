@@ -1,0 +1,57 @@
+
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: -20px 0px;
+    justify-content: center;
+    align-items: center;
+    color: #31303a;
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 688px;
+        height: 120px;
+        box-sizing: border-box;
+        h3 {
+            letter-spacing: 0.5px;
+            color: #fff;
+            padding: 5px;
+            font-weight: 700;
+            text-align: center;
+            font-family: "Tiempos",Times,serif;
+        }
+
+        .title {
+            font-size: 40px;
+        }
+
+    }
+
+    .buttonContainer {
+        //background-color: aquamarine;
+        padding: 20px;
+        margin-bottom: 15px;
+
+        .findMe {
+            padding: 12px 45px;
+            text-decoration: none;
+            border-radius: 3px;
+            color: #31303a;
+            font-size: 13px;
+            font-weight: 550;
+            background: #f8f8f8;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .articleContainer {
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(231, 239, 245);
+        height: 530px;
+        width: 85%;
+    }
+}

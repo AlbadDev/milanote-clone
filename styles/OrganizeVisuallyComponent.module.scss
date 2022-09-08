@@ -1,0 +1,65 @@
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    //background-color: rgb(103, 165, 165);
+    .articleContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        //background-color: rgb(62, 62, 138);
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 800px;
+            .title {
+                font-size: 45px;
+                margin-bottom: -10px;
+                font-family: "Tiempos",Times,serif;
+            }
+
+            h2 {
+                color: #31303a;
+                font-weight: 600;
+            }
+            .paragraph {
+                text-align: center;
+                font-size: 22px;
+                line-height: 1.36;
+                padding: 0 20px 1.5em 20px;
+                color: #818181;
+                font-family: "Source Sans",Helvetica,Arial,sans-serif;
+            }
+        }
+
+        .bodyContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 0px 100px;
+            .bodySection {
+                width: 100%;
+
+                .articleContainer {
+                    width: 100%;
+                    height: 720px;
+                    background-image: url('https://images.prismic.io/milanote/184fed5a-5b9e-4369-8b65-51d4e9005f76_Image-Article-Research-Board.png');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: 100%;
+                    border-radius: 6px;
+                    box-shadow: 0 5px 10px rgb(0 0 0 / 20%), 0 10px 30px rgb(0 0 0 / 20%);
+                }
+            }
+            
+        }
+    }
+}

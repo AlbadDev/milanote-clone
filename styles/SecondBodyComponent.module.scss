@@ -1,0 +1,156 @@
+.section {
+    margin-top: 80px;
+    width: 100%;
+    padding:   20px auto;
+    background-image: url('/secondBackground.png');
+
+    .pageContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        padding-bottom: 25px;
+
+        .titleComponent {
+            text-align: center;
+            font-size: 30px;
+           
+            h2 {
+                //font-weight: 600;
+                font-family: regular,serif;
+                color: #16151ada;
+            }
+            title {
+                
+                font-weight: 600;
+                padding: 0.8em 20px 0.4em 20px;
+                color: #16151aaf;
+                text-align: center;
+            }
+
+        }
+
+        .cardContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            //margin: 65px;
+            margin-top: -30px;
+            
+            .grid {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                max-width: 800px;
+            }
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 1rem;
+                text-align: left;
+                color: inherit;
+                text-decoration: none;
+                border-radius: 2px;
+                transition: color 0.15s ease, border-color 0.15s ease;
+                width: 270px;
+                // max-width: 767px;
+                //background-color: #a7a7dd;
+
+               .cardChildBody {
+                    display: flex;
+                    width: 100%;
+                    height: 500px;
+                    //background-color: #3a343425;
+
+
+                    .ImageContainer {
+                        display: flex;
+                        //justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        width: 100%;
+                        .firstImage {
+                            width: 100%;
+                            height: 350px;
+                            background-image: url('https://images.prismic.io/milanote/45cf75e0-22ed-40df-ac23-4e8dfe6f1744_image-write-notes-lists.png');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        .secondImage {
+                            width: 100%;
+                            height: 390px;
+                            margin-top: 70px;
+                            background-image: url('https://images.prismic.io/milanote/225d281d-c602-45c3-b070-822e24e10331_image-upload-files.png');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        .thdImage {
+                            width: 100%;
+                            height: 220px;
+                            margin-top: 70px;
+                            background-image: url('https://images.prismic.io/milanote/0c215c36-0679-49c0-b9e7-5be46235e0b1_image-save-test-images-links%402x.png');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        .fthImageContainer {
+                            width: 100%;
+                            height: 400px;
+                            background-image: url('https://images.prismic.io/milanote/8d93749e-4d08-450e-8e91-97f22f64106c_image-add-notes.png');
+                            background-repeat: no-repeat;
+                            background-size:cover;
+                        }
+                    }
+                    
+               }
+               
+               .cardChildFooter {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 20%;
+                    margin-top: 50px;
+                    
+                    h2 {
+                        font-size: 23px;
+                        color: #201f24ef;
+                        font-family: "Tiempos",Times,serif;
+                    }
+                    .header {
+                        font-weight: 600;
+                    }
+                    p {
+                        font-family: "Source Sans",Helvetica,Arial,sans-serif;
+                        letter-spacing: 1px;
+                        line-height: 1.333;
+                        color: #6e6e71;
+                        margin-top: -10px;
+
+                        a {
+                            color: #f4511c;
+                            text-decoration: underline;
+                        }
+                    }
+               } 
+            }
+            
+        }
+
+        @media (max-width: 767px) {
+            .cardContainer {
+                -ms-flex-preferred-size: 100%;
+                flex-basis: 100%;
+            }
+        }
+        
+
+    }
+}
+
+@media(max-width: 1200px) {
+    .card {
+        max-width: 250px; 
+    }
+}

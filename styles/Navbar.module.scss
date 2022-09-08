@@ -1,0 +1,84 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 10px;
+    font-family: Helvetica,Arial,sans-serif;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    margin-top: 10px;
+    height: 80px;
+    z-index: 100;
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 15px 50px;
+        .logoContainer {
+            display: flex;
+            align-items: center;
+            .logo {
+                font-family: Times,Arial, Helvetica, sans-serif;
+                font-weight: 580;
+                font-size: 22px;
+            }
+        }
+        
+        .navContainer {
+            display: flex;
+            margin: auto 0;
+            font-size: 16px;
+            margin-top: 30px;
+            .nav {
+                display: inline-block;
+                font-size: 16px;
+                
+                .listContainer {
+                   list-style: none;
+                    li {
+                        display: inline-block;
+                        border-radius: 5px;
+                        margin-left: 10px;
+                        color: rgb(105, 102, 102);
+                        .dropDownMenu {
+                            position: static;
+                            margin-right: 20px;
+                            width: 100%;
+                            
+                        }
+                        .logInButton {
+                            padding: 12px 25px ;
+                            border: 1px solid #ebe5e5;
+                            color: rgb(105, 102, 102);
+                            border-radius: 3px;
+                        }
+                    }
+                    .signUp {
+                        display: inline-block;
+                        align-items: center;
+                        background: #f4511c;
+                        border: 0;
+                        margin-bottom: 30px;
+                        padding: 12px 25px ;
+                        font-family: "Source Sans",Helvetica,Arial,sans-serif;
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #fff;
+                        text-decoration: none;
+                        outline: 0;
+                        cursor: pointer;
+                        border-radius: 3px;
+                        border: 0;
+                        transition: background .25s linear;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                    }
+                }
+            }
+            
+        }
+    }
+}

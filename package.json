@@ -1,0 +1,23 @@
+{
+  "name": "milanote-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "sass": "^1.50.0",
+    "scss": "^0.2.4",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
