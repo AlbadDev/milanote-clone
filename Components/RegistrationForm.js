@@ -7,9 +7,17 @@ const RegistrationForm = () => {
 
     return (
         <section className={style.sectionRegistration}>
-            hello user !...
-            <section className='aregistrationContainer'>
-                im a container ...
+            <section className={style.registrationContainer}>
+                <section className={style.container}>
+                    <section className={style.background}>
+                    </section>
+                    <section className={style.formComponent}>
+                        <div className={style.formPanel}>
+                            <h2>Try Milanote today</h2>
+                            <p>Free with no time limit</p>
+                        </div>
+                    </section>
+                </section>
             </section>
         </section>
     )
