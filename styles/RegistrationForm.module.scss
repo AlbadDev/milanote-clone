@@ -4,12 +4,26 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid tomato;
+   // border: 1px solid tomato;
     width: 100%;
-    height: 450px;
+    height: 770px;
     position:relative;
-    z-index: 1;
+   padding: 10px;
+    //z-index: 1;
+     margin-top: 100px;
 
+
+    .registrationContainer {
+       
+        padding-top: 50px;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://images.prismic.io/milanote/63d2e479-ad44-4cee-ae46-c25e4ed07091_register-footer-bg%402x.jpg');
+        background-position: center;
+        background-size: cover;
+        z-index: 1;
+    }
+   
 
     .container{
         display: flex;
@@ -28,6 +42,7 @@
         background: #fff;
         box-shadow: 0 3px 6px 0 rgb(0 0 0 / 10%);
         border-radius: 6px;
+       
     }
 
     .formComponent {

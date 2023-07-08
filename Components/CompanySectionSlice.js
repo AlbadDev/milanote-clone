@@ -11,7 +11,7 @@ const CompanySectionSlice = ({responseCompanyData}) => {
     return (
         <section className={style.sectionContainer}>
             <article className={style.container}>
-                <p>Creative professionals from these companies use Milanote</p>
+                <h3 className={style.textHeader}>Creative professionals from these companies use Milanote</h3>
                 
                     <ul >
                         {responseCompanyData.map(company => (

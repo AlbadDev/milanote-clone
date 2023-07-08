@@ -51,7 +51,21 @@
         display: flex;
         flex-direction: column;
         background-color:rgb(231, 239, 245);
-        height: 530px;
+        height: 630px;
         width: 85%;
+       border-radius: 5px;
+       
     }
 }
+
+
+
+@media (min-width: 1380px) and (max-width: 15024px) {
+    /* * {
+      padding: auto 620px;
+    } */
+
+    .sectionContainer {
+        margin: auto 600px;
+     }
+  }

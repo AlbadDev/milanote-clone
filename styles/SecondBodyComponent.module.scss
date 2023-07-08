@@ -154,3 +154,14 @@
         max-width: 250px; 
     }
 }
+
+
+@media (min-width: 1380px) and (max-width: 15024px) {
+    /* * {
+      padding: auto 620px;
+    } */
+
+    .pageContainer {
+        margin: auto 660px;
+     }
+  }

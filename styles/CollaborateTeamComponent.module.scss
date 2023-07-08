@@ -41,25 +41,45 @@
 
         .bodyContainer {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            padding: 0px 100px;
-            .bodySection {
-                width: 100%;
+            flex-direction: column;
+            background-color:rgb(231, 239, 245);
+            height: 630px;
+            width: 85%;
+           border-radius: 5px;
+           margin: auto 300px;
+           //padding: 0px 100px;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            // width: 100%;
+            // padding: 0px 100px;
+             .bodySection {
+                 width: 100%;
 
-                .articleContainer {
-                    width: 100%;
-                    height: 720px;
-                    background-image: url('https://images.prismic.io/milanote/9038117d-0669-49f3-96fa-54e387fcdd75_Image-sketch-ideas-board.png');
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: 100%;
-                    border-radius: 6px;
-                    box-shadow: 0 5px 10px rgb(0 0 0 / 20%), 0 10px 30px rgb(0 0 0 / 20%);
-                }
-            }
+            //     .articleContainer {
+            //         width: 100%;
+            //         height: 720px;
+            //         background-image: url('https://images.prismic.io/milanote/9038117d-0669-49f3-96fa-54e387fcdd75_Image-sketch-ideas-board.png');
+            //         background-size: cover;
+            //         background-repeat: no-repeat;
+            //         background-position: 100%;
+            //         border-radius: 6px;
+            //         box-shadow: 0 5px 10px rgb(0 0 0 / 20%), 0 10px 30px rgb(0 0 0 / 20%);
+            //     }
+             }
             
         }
     }
 }
+
+
+@media (min-width: 1380px) and (max-width: 15024px) {
+    /* * {
+      padding: auto 620px;
+    } */
+
+    .bodySection {
+        margin: auto 600px;
+        border: 5px solid red;
+     }
+  }
