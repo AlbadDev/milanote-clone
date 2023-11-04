@@ -15,10 +15,6 @@ const CollaborateTeamComponent = () => {
                     </p>
                 </div>
                 <div className={style.bodyContainer}>
-                    {/* <section className={style.bodySection}>
-                        <article className={style.articleContainer}></article>
-                       
-                    </section> */}
                      <Image src='https://images.prismic.io/milanote/9038117d-0669-49f3-96fa-54e387fcdd75_Image-sketch-ideas-board.png' width='150' height='780' layout='responsive'  alt='albad' className={style.Image}/>
                 </div>
             </article>

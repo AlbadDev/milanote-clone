@@ -1,8 +1,8 @@
 import style from '../styles/Navbar.module.scss'
 import logo from '../public/logo.png'
 import Image from 'next/image'
-
-
+import { GoChevronDown } from "react-icons/go";
+import {HiMenu} from 'react-icons/hi'
 
 
 
@@ -13,6 +13,7 @@ const Navbar = () => {
         <section className={style.container}>
             <header className={style.header}>
                 <div className={style.logoContainer}>
+                
                     <Image src={logo} className={style.logoIcon}/>
                     <span className={style.logo}> Milanote</span>
                 </div>
@@ -22,6 +23,7 @@ const Navbar = () => {
                             <li>
                                 <div className={style.dropDownMenu}>
                                     <a href="/">How people use Milanote</a>
+                                    <GoChevronDown clasName={style.downIcon}/>
                                 </div>
                             </li>
                             <li ><a className={style.logInButton}>Log in</a></li>
@@ -29,6 +31,9 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </nav>
+                <div className={style.menu}>
+                    <HiMenu className={style.menuIcon}/>
+                </div>
             </header>
         </section>
     )

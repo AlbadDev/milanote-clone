@@ -43,20 +43,20 @@ export default function Home({resultData , testimonialResult, responseCompanyDat
             <OrganizeVisuallyComponent />
             <CollaborateTeamComponent />
             <SegmentCorouselSlice resultData = {resultData}/>
-            <TestimonialSlice testimonialResult = {testimonialResult}/>
+            {/* <TestimonialSlice testimonialResult = {testimonialResult}/> */}
             <CompanySectionSlice  responseCompanyData = {responseCompanyData}/>
-            <RegistrationForm />
-            <RegisterFormFooter />
+            {/* <RegistrationForm /> */}
+            {/* <RegisterFormFooter /> */}
           </main>
 
-          <footer className={styles.footer}>
+          {/* <footer className={styles.footer}>
 
               Powered by AlbadDev {' '}
               <span className={styles.logo}>
                 <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
               </span>
 
-          </footer>
+          </footer> */}
       </div>
     )
 }

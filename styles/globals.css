@@ -20,3 +20,16 @@ a {
 /* @media (min-width: 1280px) and (max-width: 15024px) {
  
 } */
+
+
+@media (min-width: 1440px)  {
+  body {
+    margin: 0px 100px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 15024px)  {
+  body {
+    margin: 0px 600px;
+  }
+}

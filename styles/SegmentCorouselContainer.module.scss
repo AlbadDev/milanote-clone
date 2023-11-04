@@ -58,7 +58,24 @@
     }
 }
 
+@media(max-width: 760px) {
+    .sectionContainer {
+        .header {
+           .title {
+            margin: 0px 50px;
+            font-size: 22px;
+           }
+        }
+        .buttonContainer {
+            margin-top: -20px;
+        }
 
+        .articleContainer {
+            height: 200px;
+            margin-bottom: 20px;
+        }
+    }
+}
 
 @media (min-width: 1380px) and (max-width: 15024px) {
     /* * {
@@ -67,5 +84,6 @@
 
     .sectionContainer {
         margin: auto 600px;
+        
      }
   }

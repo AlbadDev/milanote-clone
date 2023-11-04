@@ -11,12 +11,12 @@ const BodyFirstComponent = () => {
 
     return (
         <section className={style.firstComponentContainer}>
-            <div>
+            {/* <div> */}
                 <section className={style.sectionComponent}>
                    <div className={style.articleContainer}>
                         <article className={style.leftContainer}>
                             <div className={style.container}>
-                                <h1 className={style.leftTitle}>Get orgonized.<br/> Stay creative.</h1>
+                                <span className={style.leftTitle}>Get orgonized. Stay creative.</span>
                             
                                 <div className={style.IntroComponent}>
                                     <div className={style.introContainer}>
@@ -56,7 +56,7 @@ const BodyFirstComponent = () => {
                         </article>
                    </div>
                 </section>
-            </div>
+            {/* </div> */}
         </section>
     )
 }

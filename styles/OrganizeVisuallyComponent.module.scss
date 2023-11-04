@@ -52,6 +52,7 @@
             height: 630px;
             width: 85%;
            border-radius: 5px;
+           box-shadow: 0 5px 10px rgba(0,0,0,.2), 0 10px 30px rgba(0,0,0,.2);
             .bodySection {
                
                 height: 630px;
@@ -69,6 +70,51 @@
             }
             
         }
+    }
+}
+
+@media (min-width: 280px) and (max-width: 750px) {
+    .sectionContainer {
+       .articleContainer {
+        .header {
+                width: 360px;
+                //border: 2px solid red;
+
+                .title {
+                    font-size: 30px;
+                }
+                .paragraph {
+                    font-size:22px;
+                    font-weight: 200;
+                }
+        }
+        .bodyContainer {
+            height: 200px;
+        }
+       }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .sectionContainer {
+       .articleContainer {
+        .header {
+                width: 500px;
+                //border: 2px solid red;
+
+                .title {
+                    font-size: 30px;
+                }
+                .paragraph {
+                    font-size:22px;
+                    font-weight: 200;
+                }
+        }
+        .bodyContainer {
+            height: 400px;
+            // box-shadow: 0 5px 10px rgba(0,0,0,.2), 0 10px 30px rgba(0,0,0,.2);
+        }
+       }
     }
 }
 

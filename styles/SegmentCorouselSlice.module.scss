@@ -6,7 +6,7 @@
     color: #fff;
     width: 100%;
     margin-top: 100px;
-    
+    margin-right: -10px;
     .navContainer {
         display: flex;
         justify-content: center;
@@ -46,10 +46,15 @@
 
     }
 
-    @media(min-width: 760px) {
+    @media(max-width: 760px) {
         .navContainer {
+            display: none;
             font-size: 13px;
             //padding: 0px 150px;
+
+            .usage {
+                font-size: 18px;
+            }
         }
     }
     @media(max-width: 600px) {

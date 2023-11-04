@@ -27,70 +27,207 @@
             }
         }
         
-        .navContainer {
-            display: flex;
-            margin: auto 0;
-            font-size: 16px;
-            margin-top: 30px;
-            .nav {
-                display: inline-block;
-                font-size: 16px;
-                
-                .listContainer {
-                   list-style: none;
-                    li {
-                        display: inline-block;
-                        border-radius: 5px;
-                        margin-left: 10px;
-                        color: rgb(105, 102, 102);
-                        .dropDownMenu {
-                            position: static;
-                            margin-right: 20px;
-                            width: 100%;
-                            
-                        }
-                        .logInButton {
-                            padding: 12px 25px ;
-                            border: 1px solid #ebe5e5;
-                            color: rgb(105, 102, 102);
-                            border-radius: 3px;
-                        }
-                    }
-                    .signUp {
-                        display: inline-block;
-                        align-items: center;
-                        background: #f4511c;
-                        border: 0;
-                        margin-bottom: 30px;
-                        padding: 12px 25px ;
-                        font-family: "Source Sans",Helvetica,Arial,sans-serif;
-                        font-size: 16px;
-                        font-weight: 600;
-                        color: #fff;
-                        text-decoration: none;
-                        outline: 0;
-                        cursor: pointer;
-                        border-radius: 3px;
-                        border: 0;
-                        transition: background .25s linear;
-                        -webkit-appearance: none;
-                        -moz-appearance: none;
-                    }
-                }
-            }
-            
+        
+    }
+}
+
+@media (min-width: 280px) and (max-width: 768px)  {
+    .container {
+        display: flex;
+        //justify-content: space-between;
+        margin-top: 0;
+        padding-left: -50px;
+       // background-color: #31303A;
+       // color: #fff;
+    .header {
+        margin-left: -55px;
+    }
+    }
+    .nav{
+        display: none;
+       
+    }
+    .menu {
+        margin-right: -70px;
+        .menuIcon {
+            font-size: 26px;
         }
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    .logoContainer {
+        margin-left: -40px;
+    }
+    .navContainer {
+        display: flex;
+        justify-content: flex-end;
+        margin: auto 0;
+        font-size: 16px;
+        margin-top: 30px;
+       //s border: 1px solid red;
+        padding-right: 20px;
+        width: 900px;
+        margin-right: -80px;
+        .nav {
+            display: inline-block;
+            font-size: 16px;
+            
+            .listContainer {
+               list-style: none;
+                li {
+                    display: inline-block;
+                    border-radius: 5px;
+                    margin-left: 10px;
+                    color: rgb(105, 102, 102);
+                    .dropDownMenu {
+                        position: static;
+                        margin-right: 20px;
+                        width: 100%;
+                        
+                    }
+                    .logInButton {
+                        padding: 12px 25px ;
+                        border: 1px solid #ebe5e5;
+                        color: rgb(105, 102, 102);
+                        border-radius: 3px;
+                    }
+                }
+                .signUp {
+                    display: inline-block;
+                    align-items: center;
+                    background: #f4511c;
+                    border: 0;
+                    margin-bottom: 30px;
+                    padding: 12px 25px ;
+                    font-family: "Source Sans",Helvetica,Arial,sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    text-decoration: none;
+                    outline: 0;
+                    cursor: pointer;
+                    border-radius: 3px;
+                    border: 0;
+                    transition: background .25s linear;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                }
+            }
+        }
+        
+    }
+    .menu {
+        display: none;
+    }
+    // .header {
+    //     margin: 20px 640px
+    //  }
+  }
 
 
-@media (min-width: 1380px) and (max-width: 15024px) {
-    /* * {
-      padding: auto 620px;
-    } */
+  @media (min-width: 1280px) and (max-width: 3500px) {
 
+    .logoContainer {
+        margin-left: -45px;
+    }
+    .navContainer {
+       
+        display: flex;
+        justify-content: flex-end;
+        margin: auto 0;
+        font-size: 16px;
+        margin-top: 30px;
+        //border: 1px solid red;
+        padding-right: 20px;
+        width: 1200px;
+        margin-right: -60px;
+        .nav {
+            display: inline-block;
+            font-size: 16px;
+            
+            .listContainer {
+               list-style: none;
+                li {
+                    display: inline-block;
+                    border-radius: 5px;
+                    margin-left: 10px;
+                    color: rgb(105, 102, 102);
+                    .dropDownMenu {
+                        position: static;
+                        margin-right: 20px;
+                        width: 100%;
+                        
+                    }
+                    .logInButton {
+                        padding: 12px 25px ;
+                        border: 1px solid #ebe5e5;
+                        color: rgb(105, 102, 102);
+                        border-radius: 3px;
+                    }
+                }
+                .signUp {
+                    display: inline-block;
+                    align-items: center;
+                    background: #f4511c;
+                    border: 0;
+                    margin-bottom: 30px;
+                    padding: 12px 25px ;
+                    font-family: "Source Sans",Helvetica,Arial,sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    text-decoration: none;
+                    outline: 0;
+                    cursor: pointer;
+                    border-radius: 3px;
+                    border: 0;
+                    transition: background .25s linear;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                }
+            }
+        }
+        
+    }
+    .menu {
+        display: none;
+    }
     .header {
         margin: 20px 640px
      }
   }
+
+  @media (min-width: 2000px) and (max-width: 15024px)  {
+    .navContainer {
+       
+        display: flex;
+        justify-content: flex-end;
+        margin: auto 0;
+        font-size: 16px;
+        margin-top: 30px;
+        //border: 1px solid red;
+        padding-right: 20px;
+        width: 1300px;
+        margin-right: -60px;
+    }
+  }
+
+//   @media (min-width: 1440px)  {
+//     // .container {
+//     //     width: 100%;
+//     //     display: flex;
+//     //     justify-content: space-between;
+//     //     border: 1px solid rgb(48, 3, 3);
+        
+//     // }
+//     .navContainer {
+//         width: 1000px;
+//        border: 1px solid red;
+//     }
+//     .logoContainer {
+//         margin-left: -55px;
+//         border: 1px solid red;
+//     }
+//   }
